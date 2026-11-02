@@ -1,0 +1,37 @@
+GANTI GAMBAR PORTOFOLIO
+
+Taruh semua gambar di dalam subfolder gambar yang ada di samping index.html, style.css, dan script.js. Gunakan nama file berikut agar langsung tampil. Gambar yang belum ditambahkan akan memakai ilustrasi fallback.
+
+FOTO PROFIL
+- gambar/foto-saya.jpg
+
+PROYEK
+- gambar/project-bmkg.jpg (tangkapan layar asli website BMKG yang kamu kerjakan)
+- gambar/project-ekskul.jpg (screenshot website ekskul)
+- gambar/project-mytelkomsel.png (screenshot desain tugas kuliah; beri keterangan latihan desain)
+- gambar/project-ar.jpg (gambar asli media pembelajaran AR)
+- gambar/project-little-steps.jpg (screenshot aplikasi Little Steps)
+- gambar/project-smarthome.jpg (screenshot atau foto proyek smart home IoT)
+- gambar/project-game.jpg (screenshot proyek game, jika ingin ditampilkan)
+
+PENGALAMAN
+- gambar/pengalaman-bmkg.jpg (gunakan foto asli hanya jika kamu punya izin; jika tidak, ilustrasi fallback tetap aman)
+- gambar/pengalaman-mengajar.jpg
+- gambar/pengalaman-expo-iot.jpg
+
+PENDIDIKAN
+- gambar/pendidikan-unp.jpg
+- gambar/pendidikan-publikasi-ar.jpg
+
+SERTIFIKASI DAN PELATIHAN
+- gambar/sertifikat-mtcna.jpg
+- gambar/sertifikat-ept.jpg
+- gambar/pelatihan-ai-fluency.jpg
+- gambar/pelatihan-frontend.jpg
+- gambar/pelatihan-powerbi.jpg
+- gambar/pelatihan-javascript.jpg
+- gambar/pelatihan-fundamentals.jpg
+- gambar/pelatihan-frontend-coursera.jpg
+- gambar/sertifikat-icmtee.jpg
+
+Untuk memakai format atau nama lain, buka index.html di VS Code, cari nama file di atribut src, lalu ganti nilainya sesuai nama file. JPG, PNG, dan WebP bisa dipakai; pastikan ejaan dan ekstensi di src sama persis dengan file. Setelah menambahkan gambar, muat ulang halaman di browser. Jika file belum tersedia, kartu menampilkan latar ilustrasi tanpa ikon gambar rusak.

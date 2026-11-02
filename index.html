@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7fb">
+  <meta name="description" content="Portofolio Cinta Bening Prastanti, Front-End Engineer & Web Developer.">
+  <title>Cinta Bening Prastanti — Front-End Engineer & Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#beranda">cinta<span><b>.</b></span></a>
+      <button class="menu-btn" aria-label="Buka navigasi" aria-expanded="false">☰</button>
+      <nav class="navlinks" aria-label="Navigasi utama">
+        <a href="#tentang">Tentang</a>
+        <a href="#skill">Skill</a>
+        <a href="#proyek">Proyek</a>
+        <a href="#pengalaman">Pengalaman</a>
+        <a href="#pendidikan">Pendidikan</a>
+        <a href="#pelatihan">Pelatihan</a>
+      </nav>
+      <div class="nav-controls">
+        <div class="language-switch" role="group" aria-label="Pilih bahasa">
+          <button type="button" class="language-option active" data-language="id" aria-pressed="true">ID</button>
+          <button type="button" class="language-option" data-language="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Aktifkan mode gelap"
+          aria-pressed="false" title="Ganti tema">
+          <span class="theme-icon" aria-hidden="true">☾</span>
+          <span class="theme-word">Mode gelap</span>
+        </button>
+      </div>
+      <a class="nav-cta" href="#kontak">Mari terhubung ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="wrap hero-grid">
+        <div class="hero-intro">
+          <div class="eyebrow">
+            <i class="dot"></i>
+            <span class="mono">FRONT-END ENGINEER · WEB DEVELOPER</span>
+          </div>
+          <h1>Hai, aku<br><em>Cinta.</em></h1>
+          <p class="hero-copy">
+            Saya mengombinasikan kepekaan desain antarmuka dengan logika pemrograman terstruktur. Sebagai lulusan
+            Pendidikan Teknik Informatika Universitas Negeri Padang dengan pengalaman di BMKG, saya terbiasa
+            menerjemahkan desain UI/UX menjadi komponen interaktif (UI Slicing), mengelola state, serta mengintegrasikan
+            antarmuka dengan API.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="#proyek">Lihat proyek <span>↘</span></a>
+            <a class="btn alt" href="#kontak">Hubungi saya ↗</a>
+          </div>
+        </div>
+        <div class="portrait-wrap">
+          <div class="portrait">
+            <img id="profilePhoto" src="gambar/foto-saya.jpg" alt="Foto profil Cinta Bening Prastanti">
+          </div>
+          <div class="float-tag">pixel perfect ✳</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="tentang">
+      <div class="wrap about-grid">
+        <div>
+          <div class="mono">01 — sedikit tentang saya</div>
+          <h2 class="serif" style="font-size:48px;line-height:1.1;margin:13px 0">Merancang antarmuka, membangun
+            performa.</h2>
+        </div>
+        <div>
+          <p class="about-copy">Lulusan <strong>Pendidikan Teknik Informatika, Universitas Negeri Padang (IPK
+              3,60/4,00)</strong>. Saya berfokus pada pengembangan <em>front-end</em> dan aplikasi web secara utuh
+            dengan kode yang bersih (clean code).</p>
+          <p class="about-copy" style="font-size:14px">Pengalaman di BMKG melatih saya memecahkan masalah teknis
+            produksi, mulai dari UI Slicing hingga pengujian fungsionalitas sistem.</p>
+          <div class="stats">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section" id="skill">
+      <div class="wrap">
+        <div class="section-top">
+          <div>
+            <div class="mono">02 — kemampuan</div>
+            <h2>Skill & toolkit</h2>
+          </div>
+          <p>Fondasi teknis untuk pengembangan web modern, integrasi sistem, dan optimasi antarmuka.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-panel">
+            <span class="skill-icon">⌘</span>
+            <div class="mono">01 / tech stack & tools</div>
+            <h3>Yang saya pakai</h3>
+            <div class="tech-grid">
+              <div class="tech-tile" title="HTML5"><span class="tech-mark" style="--brand:#E34F26"><img class="brand-logo" src="https://cdn.simpleicons.org/html5/E34F26" alt="" loading="lazy"><span class="brand-logo-fallback">5</span></span><span>HTML5</span></div>
+              <div class="tech-tile" title="CSS3"><span class="tech-mark" style="--brand:#1572B6"><img class="brand-logo" src="https://cdn.simpleicons.org/css3/1572B6" alt="" loading="lazy"><span class="brand-logo-fallback">3</span></span><span>CSS3</span></div>
+              <div class="tech-tile" title="JavaScript"><span class="tech-mark" style="--brand:#F7DF1E"><img class="brand-logo" src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="" loading="lazy"><span class="brand-logo-fallback">JS</span></span><span>JavaScript</span></div>
+              <div class="tech-tile" title="React.js"><span class="tech-mark" style="--brand:#61DAFB"><img class="brand-logo" src="https://cdn.simpleicons.org/react/61DAFB" alt="" loading="lazy"><span class="brand-logo-fallback">Re</span></span><span>React.js</span></div>
+              <div class="tech-tile" title="Vue.js"><span class="tech-mark" style="--brand:#4FC08D"><img class="brand-logo" src="https://cdn.simpleicons.org/vuedotjs/4FC08D" alt="" loading="lazy"><span class="brand-logo-fallback">V</span></span><span>Vue.js</span></div>
+              <div class="tech-tile" title="Tailwind CSS"><span class="tech-mark" style="--brand:#06B6D4"><img class="brand-logo" src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="" loading="lazy"><span class="brand-logo-fallback">Tw</span></span><span>Tailwind CSS</span></div>
+              <div class="tech-tile" title="PHP"><span class="tech-mark" style="--brand:#777BB4"><img class="brand-logo" src="https://cdn.simpleicons.org/php/777BB4" alt="" loading="lazy"><span class="brand-logo-fallback">PHP</span></span><span>PHP</span></div>
+              <div class="tech-tile" title="MySQL"><span class="tech-mark" style="--brand:#4479A1"><img class="brand-logo" src="https://cdn.simpleicons.org/mysql/4479A1" alt="" loading="lazy"><span class="brand-logo-fallback">SQL</span></span><span>MySQL</span></div>
+              <div class="tech-tile" title="Bootstrap"><span class="tech-mark" style="--brand:#7952B3"><img class="brand-logo" src="https://cdn.simpleicons.org/bootstrap/7952B3" alt="" loading="lazy"><span class="brand-logo-fallback">B</span></span><span>Bootstrap</span></div>
+              <div class="tech-tile" title="Angular"><span class="tech-mark" style="--brand:#DD0031"><img class="brand-logo" src="https://cdn.simpleicons.org/angular/DD0031" alt="" loading="lazy"><span class="brand-logo-fallback">A</span></span><span>Angular</span></div>
+              <div class="tech-tile" title="Laravel"><span class="tech-mark" style="--brand:#FF2D20"><img class="brand-logo" src="https://cdn.simpleicons.org/laravel/FF2D20" alt="" loading="lazy"><span class="brand-logo-fallback">L</span></span><span>Laravel</span></div>
+              <div class="tech-tile" title="Java"><span class="tech-mark" style="--brand:#ED8B00"><img class="brand-logo" src="https://cdn.simpleicons.org/java/ED8B00" alt="" loading="lazy"><span class="brand-logo-fallback">J</span></span><span>Java</span></div>
+              <div class="tech-tile" title="Python"><span class="tech-mark" style="--brand:#3776AB"><img class="brand-logo" src="https://cdn.simpleicons.org/python/3776AB" alt="" loading="lazy"><span class="brand-logo-fallback">Py</span></span><span>Python</span></div>
+              <div class="tech-tile" title="Kotlin"><span class="tech-mark" style="--brand:#7F52FF"><img class="brand-logo" src="https://cdn.simpleicons.org/kotlin/7F52FF" alt="" loading="lazy"><span class="brand-logo-fallback">K</span></span><span>Kotlin</span></div>
+              <div class="tech-tile" title="Arduino Uno"><span class="tech-mark" style="--brand:#00979D"><img class="brand-logo" src="https://cdn.simpleicons.org/arduino/00979D" alt="" loading="lazy"><span class="brand-logo-fallback">A</span></span><span>Arduino Uno</span></div>
+              <div class="tech-tile" title="Android Studio"><span class="tech-mark" style="--brand:#3DDC84"><img class="brand-logo" src="https://cdn.simpleicons.org/androidstudio/3DDC84" alt="" loading="lazy"><span class="brand-logo-fallback">AS</span></span><span>Android Studio</span></div>
+              <div class="tech-tile" title="Unity"><span class="tech-mark" style="--brand:#000000"><img class="brand-logo" src="https://cdn.simpleicons.org/unity/000000" alt="" loading="lazy"><span class="brand-logo-fallback">U</span></span><span>Unity</span></div>
+              <div class="tech-tile" title="C#"><span class="tech-mark" style="--brand:#512BD4"><img class="brand-logo" src="https://cdn.simpleicons.org/csharp/512BD4" alt="" loading="lazy"><span class="brand-logo-fallback">C#</span></span><span>C#</span></div>
+              <div class="tech-tile" title="cPanel"><span class="tech-mark" style="--brand:#FF6C2C"><img class="brand-logo" src="https://cdn.simpleicons.org/cpanel/FF6C2C" alt="" loading="lazy"><span class="brand-logo-fallback">cP</span></span><span>cPanel</span></div>
+              <div class="tech-tile" title="WordPress"><span class="tech-mark" style="--brand:#21759B"><img class="brand-logo" src="https://cdn.simpleicons.org/wordpress/21759B" alt="" loading="lazy"><span class="brand-logo-fallback">W</span></span><span>WordPress</span></div>
+            </div>
+          </article>
+          <article class="skill-panel">
+            <span class="skill-icon">✳</span>
+            <div class="mono">02 / hard skills</div>
+            <h3>Fondasi teknis</h3>
+            <ul>
+              <li>UI/UX Slicing & Responsive Web Design</li>
+              <li>API Integration & State Management</li>
+              <li>Data Tables, Filtering & Optimasi Performa</li>
+              <li>Database (MySQL) & Integrasi Back-End</li>
+              <li>Testing & End-to-End Feature Development</li>
+            </ul>
+          </article>
+          <article class="skill-panel">
+            <span class="skill-icon">♡</span>
+            <div class="mono">03 / soft skills</div>
+            <h3>Cara saya bekerja</h3>
+            <ul>
+              <li>Komunikasi & koordinasi tim IT</li>
+              <li>Pemecahan masalah berorientasi produk</li>
+              <li>Dokumentasi kode & presentasi fitur</li>
+              <li>Manajemen waktu & adaptasi teknologi</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="proyek">
+      <div class="wrap">
+        <div class="section-top">
+          <div>
+            <div class="mono">03 — karya pilihan</div>
+            <h2>Proyek</h2>
+          </div>
+          <p>Rangkaian portofolio pengembangan web, aplikasi, dan integrasi IoT.</p>
+        </div>
+        <div class="projects-stack" tabindex="0" aria-label="Kartu proyek. Gunakan tombol panah untuk berpindah.">
+          <article class="project-card">
+            <div class="project-art"><img class="local-project-image" src="gambar/project-bmkg.jpg" alt="Website BMKG"><span
+                class="art-label">WEB DEVELOPMENT · BMKG</span></div>
+            <div class="project-info">
+              <div class="project-meta"><span class="mono">01 / pengalaman magang</span><span
+                  class="mono">2026</span></div>
+              <h3>Website BMKG Minangkabau</h3>
+              <p>Pengembangan dashboard informasi dan pengujian performa antarmuka web untuk data cuaca.</p>
+              <button class="text-link detail-btn" data-project="bmkg">Lihat detail <span>↗</span></button>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-art"><img class="local-project-image" src="gambar/project-ekskul.jpg"
+                alt="Website Ekskul"><span class="art-label">WEB DEVELOPMENT</span></div>
+            <div class="project-info">
+              <div class="project-meta"><span class="mono">02 / proyek website</span><span class="mono">WEB</span></div>
+              <h3>Website Ekskul</h3>
+              <p>Website ekstrakurikuler sekolah dengan antarmuka dinamis dan responsif.</p>
+              <button class="text-link detail-btn" data-project="ekskul">Lihat detail <span>↗</span></button>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-art"><img class="local-project-image" src="gambar/project-mytelkomsel.png"
+                alt="MyTelkomsel"><span class="art-label">UI DESIGN</span></div>
+            <div class="project-info">
+              <div class="project-meta"><span class="mono">03 / tugas kuliah</span><span class="mono">UI DESIGN</span>
+              </div>
+              <h3>Desain aplikasi MyTelkomsel</h3>
+              <p>Latihan slicing antarmuka responsif berbasis mobile app.</p>
+              <button class="text-link detail-btn" data-project="mytelkomsel">Lihat detail <span>↗</span></button>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-art"><img class="local-project-image" src="gambar/project-ar.jpg" alt="Media AR"><span
+                class="art-label">AUGMENTED REALITY</span></div>
+            <div class="project-info">
+              <div class="project-meta"><span class="mono">04 / publikasi ilmiah</span><span class="mono">2026</span>
+              </div>
+              <h3>Media Pembelajaran AR</h3>
+              <p>Aplikasi interaktif 3D dengan gamifikasi tingkat kepraktisan 94%.</p>
+              <button class="text-link detail-btn" data-project="ar">Lihat detail <span>↗</span></button>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-art"><img class="local-project-image" src="gambar/project-little-steps.jpg" alt="Aplikasi Little Steps"><span class="art-label">APPLICATION</span></div>
+            <div class="project-info"><div class="project-meta"><span class="mono">05 / proyek aplikasi</span><span class="mono">APP</span></div><h3>Little Steps</h3><p>Aplikasi Little Steps yang saya kerjakan sebagai proyek.</p><button class="text-link detail-btn" data-project="littlesteps">Lihat detail <span>↗</span></button></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art"><img class="local-project-image" src="gambar/project-smarthome.jpg" alt="Aplikasi smart home IoT"><span class="art-label">INTERNET OF THINGS</span></div>
+            <div class="project-info"><div class="project-meta"><span class="mono">06 / proyek IoT</span><span class="mono">IOT</span></div><h3>Aplikasi Smart Home IoT</h3><p>Proyek aplikasi smart home yang saya kerjakan dengan teknologi IoT.</p><button class="text-link detail-btn" data-project="smarthome">Lihat detail <span>↗</span></button></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art"><img class="local-project-image" src="gambar/project-game.jpg"
+                alt="Aplikasi game"><span class="art-label">GAME DEVELOPER</span></div>
+            <div class="project-info">
+              <div class="project-meta"><span class="mono">07 / proyek game edukasi</span><span class="mono">Game</span></div>
+              <h3>Game Edukasi: Tebak Gambar</h3>
+              <p>Proyek game edukasi tebak benda, hewan, dan buah</p><button class="text-link detail-btn"
+                data-project="gameedukasi">Lihat detail <span>↗</span></button>
+            </div>
+          </article>
+        </div>
+        <div class="project-controls">
+          <button class="round-btn" id="prevProject" aria-label="Proyek sebelumnya">←</button>
+          <span class="project-count mono" aria-live="polite"></span>
+          <button class="round-btn" id="nextProject" aria-label="Proyek berikutnya">→</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="pengalaman">
+      <div class="wrap">
+        <div class="section-top">
+          <div>
+            <div class="mono">04 — perjalanan</div>
+            <h2>Pengalaman</h2>
+          </div>
+          <p>Menerapkan teori rekayasa perangkat lunak ke lingkungan kerja riil.</p>
+        </div>
+        <div class="timeline">
+          <article class="exp-card">
+            <div class="exp-body">
+              <div class="exp-top"><span class="mono">JAN — MAR 2026</span><span class="mono">IT INTERNSHIP</span></div>
+              <h3>IT Intern</h3>
+              <div class="exp-org">Stasiun Meteorologi Minangkabau · BMKG</div>
+              <p>Melakukan pembaruan antarmuka (UI Slicing) halaman web instansi, pengelolaan konten, serta functional
+                testing.</p><button class="text-link exp-detail-btn" data-experience="bmkg">Lihat detail <span>↗</span></button>
+            </div>
+            <div class="exp-photo"><img class="local-experience-image" src="gambar/pengalaman-bmkg.jpg" alt="BMKG"><span
+                class="exp-photo-label">PADANG PARIAMAN · 2026</span></div>
+          </article>
+          <article class="exp-card">
+            <div class="exp-body">
+              <div class="exp-top"><span class="mono">EXPO FT</span><span class="mono">DEMONSTRATOR IOT</span></div>
+              <h3>Demonstrator IoT</h3>
+              <div class="exp-org">Expo FT UNP</div>
+              <p>Mendemonstrasikan proyek IoT kepada pengunjung Expo FT.</p><button class="text-link exp-detail-btn" data-experience="expo">Lihat detail <span>↗</span></button>
+            </div>
+            <div class="exp-photo"><img class="local-experience-image" src="gambar/pengalaman-expo-iot.jpg"
+                alt="IoT Expo"><span class="exp-photo-label">EXPO FT · IOT</span></div>
+          </article>
+          <article class="exp-card">
+            <div class="exp-body"><div class="exp-top"><span class="mono">JUL — DES 2025</span><span class="mono">PRAKTIK MENGAJAR</span></div><h3>Guru Magang</h3><div class="exp-org">SMK Muhammadiyah 1 Padang</div><p>Mengajar jaringan komputer dan keamanan jaringan; menyiapkan bahan ajar, membimbing praktik laboratorium, dan mengevaluasi capaian siswa.</p><button class="text-link exp-detail-btn" data-experience="teaching">Lihat detail <span>↗</span></button></div>
+            <div class="exp-photo"><img class="local-experience-image" src="gambar/pengalaman-mengajar.jpg" alt="Pengalaman mengajar di SMK Muhammadiyah 1 Padang"><span class="exp-photo-label">PADANG · 2025</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="pendidikan">
+      <div class="wrap">
+        <div class="section-top">
+          <div>
+            <div class="mono">05 — fondasi belajar</div>
+            <h2>Pendidikan</h2>
+          </div>
+          <p>Bekal logika algoritma dan rekayasa data.</p>
+        </div>
+        <div class="edu-grid">
+          <article class="edu-card edu-main">
+            <span class="mono">2022 — 2026</span>
+            <span class="edu-year mono">S1</span>
+            <h3>Universitas Negeri Padang</h3>
+            <p class="degree">Pendidikan Teknik Informatika</p>
+            <p class="edu-location">Kota Padang, Sumatera Barat</p>
+            <div class="edu-rule"></div>
+            <div class="gpa">
+              <span class="mono">Indeks Prestasi Kumulatif</span>
+              <strong>3,60 <small>/ 4,00</small></strong>
+              <img class="local-education-image campus-photo" src="gambar/pendidikan-unp.jpg" alt="UNP">
+            </div>
+            <div class="edu-foot"><span>Fokus</span>
+              <b>Web Development · System Integration · UI/UX</b>
+            </div>
+          </article>
+          <article class="edu-card edu-publication">
+            <img class="local-education-image publication-photo" src="gambar/pendidikan-publikasi-ar.jpg" alt="Publikasi AR">
+            <div class="pub-heading"><span class="pub-mark">✳</span><span class="mono">PUBLIKASI ILMIAH · 2026</span>
+            </div>
+            <h3>Media belajar hardware komputer berbasis AR</h3>
+            <p class="pub-copy">Visualisasi komponen komputer 3D dan gamifikasi untuk pembelajaran siswa.</p>
+            <div class="pub-metrics">
+              <div><strong class="count-up" data-value="91.25" data-decimals="2">0</strong><span>Validitas media</span>
+              </div>
+              <div><strong class="count-up" data-value="93.81" data-decimals="2">0</strong><span>Validitas materi</span>
+              </div>
+              <div><strong class="count-up" data-value="94" data-decimals="0">0</strong><span>Kepraktisan</span></div>
+            </div>
+            <div class="pub-bar"><i></i><i></i><i></i></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="certifications" id="pelatihan">
+      <div class="wrap">
+        <div class="section-top cert-top"><div><div class="mono">06 — bukti perjalanan</div><h2>Pelatihan & Sertifikasi</h2></div></div>
+        <div class="cert-stage">
+          <article class="cert-card">
+            <div class="cert-image-wrap"><img class="local-cert-image" src="gambar/sertifikat-mtcna.jpg" alt="Sertifikat MTCNA"></div>
+            <div class="cert-content"><div class="cert-topline"><span class="mono">SERTIFIKASI · 2025</span><i class="cert-seal">MTCNA</i></div>
+              <h3 class="cert-title"><small>Network certification</small>MikroTik Certified Network Associate</h3>
+              <div class="cert-bottom"><span>MikroTik</span><span>Juni 2025</span></div>
+              <button class="cert-detail-btn" type="button">Lihat detail <span>↗</span></button>
+            </div>
+          </article>
+          <article class="cert-card">
+            <div class="cert-image-wrap"><img class="local-cert-image" src="gambar/sertifikat-ept.jpg" alt="Sertifikat English Proficiency Test"></div>
+            <div class="cert-content"><div class="cert-topline"><span class="mono">SERTIFIKASI · 2026</span><i class="cert-seal">EPT</i></div>
+              <h3 class="cert-title"><small>Language proficiency</small>English Proficiency Test</h3>
+              <div class="cert-bottom"><span>UPT Bahasa · UNP</span><span>Juni 2026 — Juni 2028</span></div>
+              <button class="cert-detail-btn" type="button">Lihat detail <span>↗</span></button>
+            </div>
+          </article>
+          <article class="cert-card">
+            <div class="cert-image-wrap"><img class="local-cert-image" src="gambar/sertifikat-icmtee.jpg" alt="Sertifikat peserta ICMTEE"></div>
+            <div class="cert-content"><div class="cert-topline"><span class="mono">KONFERENSI · 2024</span><i class="cert-seal">ICMTEE</i></div>
+              <h3 class="cert-title"><small>Conference participant</small>1st International Conference on Mobile Technology and Engineering Education</h3>
+              <div class="cert-bottom"><span>Universitas Negeri Padang</span><span>31 Oktober 2024</span></div>
+              <button class="cert-detail-btn" type="button">Lihat detail <span>↗</span></button>
+            </div>
+          </article>
+          <article class="cert-card">
+            <div class="cert-image-wrap"><img class="local-cert-image" src="gambar/pelatihan-ai-fluency.jpg" alt="Sertifikat AI Fluency Framework and Foundations"></div>
+            <div class="cert-content"><div class="cert-topline"><span class="mono">PELATIHAN · 2026</span><i class="cert-seal">AI</i></div>
+              <h3 class="cert-title"><small>AI fluency</small>AI Fluency Framework & Foundations</h3>
+              <div class="cert-bottom"><span>Anthropic</span><span>Oktober 2026</span></div>
+              <button class="cert-detail-btn" type="button">Lihat detail <span>↗</span></button>
+            </div>
+          </article>
+          <article class="cert-card">
+            <div class="cert-image-wrap"><img class="local-cert-image" src="gambar/pelatihan-frontend.jpg" alt="Sertifikat Introduction to Front-End Development"></div>
+            <div class="cert-content"><div class="cert-topline"><span class="mono">PELATIHAN · 2026</span><i class="cert-seal">FE</i></div>
+              <h3 class="cert-title"><small>Front-end development</small>Introduction to Front-End Development</h3>
+              <div class="cert-bottom"><span>Simplilearn</span><span>Oktober 2026</span></div>
+              <button class="cert-detail-btn" type="button">Lihat detail <span>↗</span></button>
+            </div>
+          </article>
+          <article class="cert-card">
+            <div class="cert-image-wrap"><img class="local-cert-image" src="gambar/pelatihan-powerbi.jpg" alt="Sertifikat Basics of Microsoft Power BI"></div>
+            <div class="cert-content"><div class="cert-topline"><span class="mono">PELATIHAN · 2026</span><i class="cert-seal">BI</i></div>
+              <h3 class="cert-title"><small>Power BI</small>Basics of Microsoft Power BI</h3>
+              <div class="cert-bottom"><span>Uniathena</span><span>Oktober 2026</span></div>
+              <button class="cert-detail-btn" type="button">Lihat detail <span>↗</span></button>
+            </div>
+          </article>
+          <article class="cert-card">
+            <div class="cert-image-wrap"><img class="local-cert-image" src="gambar/pelatihan-frontend-coursera.jpg" alt="Meta Front-End Development course certificate"></div>
+            <div class="cert-content"><div class="cert-topline"><span class="mono">PELATIHAN · 2026</span><i class="cert-seal">Meta</i></div>
+              <h3 class="cert-title"><small>Meta · Coursera</small>Introduction to Front-End Development</h3>
+              <div class="cert-bottom"><span>Meta · Coursera</span><span>23 Oktober 2026</span></div>
+              <button class="cert-detail-btn" type="button">Lihat detail <span>↗</span></button>
+            </div>
+          </article>
+          <article class="cert-card">
+            <div class="cert-image-wrap"><img class="local-cert-image" src="gambar/pelatihan-fundamentals.jpg" alt="Google AI Fundamentals course certificate"></div>
+            <div class="cert-content"><div class="cert-topline"><span class="mono">PELATIHAN · 2026</span><i class="cert-seal">AI</i></div>
+              <h3 class="cert-title"><small>Google · Coursera</small>AI Fundamentals</h3>
+              <div class="cert-bottom"><span>Google · Coursera</span><span>24 Oktober 2026</span></div>
+              <button class="cert-detail-btn" type="button">Lihat detail <span>↗</span></button>
+            </div>
+          </article>
+          <article class="cert-card">
+            <div class="cert-image-wrap"><img class="local-cert-image" src="gambar/pelatihan-javascript.jpg" alt="Meta Programming with JavaScript course certificate"></div>
+            <div class="cert-content"><div class="cert-topline"><span class="mono">PELATIHAN · 2026</span><i class="cert-seal">JS</i></div>
+              <h3 class="cert-title"><small>Meta · Coursera</small>Programming with JavaScript</h3>
+              <div class="cert-bottom"><span>Meta · Coursera</span><span>26 Oktober 2026</span></div>
+              <button class="cert-detail-btn" type="button">Lihat detail <span>↗</span></button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="kontak">
+      <div class="wrap contact-grid">
+        <div>
+          <div class="mono">Punya ide menarik?</div>
+          <h2>Yuk, bikin sesuatu<br>yang skalabel.</h2>
+          <p>Saya selalu antusias mendiskusikan implementasi kode bersih dan tantangan front-end.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn contact-method" href="mailto:cintabeningp@gmail.com">Kirim email ↗</a>
+          <a class="btn alt contact-method" href="https://wa.me/6285266435905" target="_blank" rel="noopener noreferrer">WhatsApp +62 852-6643-5905</a>
+          <a class="btn alt contact-method" href="https://www.linkedin.com/in/cintabeningp/" target="_blank"
+            rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <span class="footer-legal">© 2026 Cinta Bening Prastanti</span>
+      <div class="footer-contact">
+        <a class="footer-contact-item" href="mailto:cintabeningp@gmail.com" aria-label="Email Cinta Bening Prastanti">✉ <span class="footer-link-email">Email</span></a>
+        <a class="footer-contact-item" href="https://wa.me/6285266435905" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Cinta Bening Prastanti">◉ <span class="footer-link-phone">WhatsApp</span></a>
+        <a class="footer-contact-item" href="https://www.linkedin.com/in/cintabeningp/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Cinta Bening Prastanti">in <span class="footer-link-linkedin">LinkedIn</span> ↗</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" id="trainingModal" role="dialog" aria-modal="true" aria-labelledby="trainingTitle">
+    <div class="modal-box training-box">
+      <button class="modal-close" id="trainingClose" aria-label="Tutup detail">×</button>
+      <div class="mono" id="trainingType">DETAIL</div>
+      <h3 id="trainingTitle"></h3>
+      <div id="trainingContent"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-box">
+      <button class="modal-close" aria-label="Tutup detail">×</button>
+      <div class="mono" id="modalEyebrow">PROJECT DETAIL</div>
+      <h3 id="modalTitle"></h3>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
